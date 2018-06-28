@@ -9,6 +9,10 @@ RSpec.describe "parser" do
   end
 
   it "convert kansuji to number" do 
-    expect('十二万三千二百三十三'.to_number).to eq (123233)
+    expect('一万二千六百七十八'.to_number).to eq (12678)
+    expect('十二万千八百一'.to_number).to eq (121801)
+    expect('一億二千百八十万千六百七十六'.to_number).to eq (121801676)
+    expect('五千百二十三万五千三百二十一'.to_number).to eq (51235321)
+
   end
 end
