@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 ConvertKansujiAndNumber::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
